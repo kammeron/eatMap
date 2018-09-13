@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ACC7165214AE0CC00A9BB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7164214AE0CC00A9BB24 /* AppDelegate.swift */; };
+		3ACC7167214AE0CC00A9BB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7166214AE0CC00A9BB24 /* ViewController.swift */; };
+		3ACC716A214AE0CC00A9BB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC7168214AE0CC00A9BB24 /* Main.storyboard */; };
+		3ACC716D214AE0CC00A9BB24 /* eatMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC716B214AE0CC00A9BB24 /* eatMap.xcdatamodeld */; };
+		3ACC716F214AE0CE00A9BB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC716E214AE0CE00A9BB24 /* Assets.xcassets */; };
+		3ACC7172214AE0CE00A9BB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC7170214AE0CE00A9BB24 /* LaunchScreen.storyboard */; };
+		3ACC717D214AE0CF00A9BB24 /* eatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC717C214AE0CF00A9BB24 /* eatMapTests.swift */; };
+		3ACC7188214AE0CF00A9BB24 /* eatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7187214AE0CF00A9BB24 /* eatMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ACC7179214AE0CF00A9BB24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACC7159214AE0CC00A9BB24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACC7160214AE0CC00A9BB24;
+			remoteInfo = eatMap;
+		};
+		3ACC7184214AE0CF00A9BB24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACC7159214AE0CC00A9BB24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACC7160214AE0CC00A9BB24;
+			remoteInfo = eatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ACC7161214AE0CC00A9BB24 /* eatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACC7164214AE0CC00A9BB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ACC7166214AE0CC00A9BB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ACC7169214AE0CC00A9BB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ACC716C214AE0CC00A9BB24 /* eatMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eatMap.xcdatamodel; sourceTree = "<group>"; };
+		3ACC716E214AE0CE00A9BB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ACC7171214AE0CE00A9BB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ACC7173214AE0CE00A9BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACC7178214AE0CF00A9BB24 /* eatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACC717C214AE0CF00A9BB24 /* eatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eatMapTests.swift; sourceTree = "<group>"; };
+		3ACC717E214AE0CF00A9BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACC7183214AE0CF00A9BB24 /* eatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACC7187214AE0CF00A9BB24 /* eatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eatMapUITests.swift; sourceTree = "<group>"; };
+		3ACC7189214AE0CF00A9BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ACC715E214AE0CC00A9BB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC7175214AE0CF00A9BB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC7180214AE0CF00A9BB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACC7158214AE0CC00A9BB24 = {
+			isa = PBXGroup;
+			children = (
+				3ACC7163214AE0CC00A9BB24 /* eatMap */,
+				3ACC717B214AE0CF00A9BB24 /* eatMapTests */,
+				3ACC7186214AE0CF00A9BB24 /* eatMapUITests */,
+				3ACC7162214AE0CC00A9BB24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ACC7162214AE0CC00A9BB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC7161214AE0CC00A9BB24 /* eatMap.app */,
+				3ACC7178214AE0CF00A9BB24 /* eatMapTests.xctest */,
+				3ACC7183214AE0CF00A9BB24 /* eatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ACC7163214AE0CC00A9BB24 /* eatMap */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC7164214AE0CC00A9BB24 /* AppDelegate.swift */,
+				3ACC7166214AE0CC00A9BB24 /* ViewController.swift */,
+				3ACC7168214AE0CC00A9BB24 /* Main.storyboard */,
+				3ACC716E214AE0CE00A9BB24 /* Assets.xcassets */,
+				3ACC7170214AE0CE00A9BB24 /* LaunchScreen.storyboard */,
+				3ACC7173214AE0CE00A9BB24 /* Info.plist */,
+				3ACC716B214AE0CC00A9BB24 /* eatMap.xcdatamodeld */,
+			);
+			path = eatMap;
+			sourceTree = "<group>";
+		};
+		3ACC717B214AE0CF00A9BB24 /* eatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC717C214AE0CF00A9BB24 /* eatMapTests.swift */,
+				3ACC717E214AE0CF00A9BB24 /* Info.plist */,
+			);
+			path = eatMapTests;
+			sourceTree = "<group>";
+		};
+		3ACC7186214AE0CF00A9BB24 /* eatMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC7187214AE0CF00A9BB24 /* eatMapUITests.swift */,
+				3ACC7189214AE0CF00A9BB24 /* Info.plist */,
+			);
+			path = eatMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACC7160214AE0CC00A9BB24 /* eatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACC718C214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMap" */;
+			buildPhases = (
+				3ACC715D214AE0CC00A9BB24 /* Sources */,
+				3ACC715E214AE0CC00A9BB24 /* Frameworks */,
+				3ACC715F214AE0CC00A9BB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eatMap;
+			productName = eatMap;
+			productReference = 3ACC7161214AE0CC00A9BB24 /* eatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ACC7177214AE0CF00A9BB24 /* eatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACC718F214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMapTests" */;
+			buildPhases = (
+				3ACC7174214AE0CF00A9BB24 /* Sources */,
+				3ACC7175214AE0CF00A9BB24 /* Frameworks */,
+				3ACC7176214AE0CF00A9BB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACC717A214AE0CF00A9BB24 /* PBXTargetDependency */,
+			);
+			name = eatMapTests;
+			productName = eatMapTests;
+			productReference = 3ACC7178214AE0CF00A9BB24 /* eatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ACC7182214AE0CF00A9BB24 /* eatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACC7192214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMapUITests" */;
+			buildPhases = (
+				3ACC717F214AE0CF00A9BB24 /* Sources */,
+				3ACC7180214AE0CF00A9BB24 /* Frameworks */,
+				3ACC7181214AE0CF00A9BB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACC7185214AE0CF00A9BB24 /* PBXTargetDependency */,
+			);
+			name = eatMapUITests;
+			productName = eatMapUITests;
+			productReference = 3ACC7183214AE0CF00A9BB24 /* eatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACC7159214AE0CC00A9BB24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kammeron Nhieu";
+				TargetAttributes = {
+					3ACC7160214AE0CC00A9BB24 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3ACC7177214AE0CF00A9BB24 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3ACC7160214AE0CC00A9BB24;
+					};
+					3ACC7182214AE0CF00A9BB24 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3ACC7160214AE0CC00A9BB24;
+					};
+				};
+			};
+			buildConfigurationList = 3ACC715C214AE0CC00A9BB24 /* Build configuration list for PBXProject "eatMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ACC7158214AE0CC00A9BB24;
+			productRefGroup = 3ACC7162214AE0CC00A9BB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ACC7160214AE0CC00A9BB24 /* eatMap */,
+				3ACC7177214AE0CF00A9BB24 /* eatMapTests */,
+				3ACC7182214AE0CF00A9BB24 /* eatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACC715F214AE0CC00A9BB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACC7172214AE0CE00A9BB24 /* LaunchScreen.storyboard in Resources */,
+				3ACC716F214AE0CE00A9BB24 /* Assets.xcassets in Resources */,
+				3ACC716A214AE0CC00A9BB24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC7176214AE0CF00A9BB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC7181214AE0CF00A9BB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACC715D214AE0CC00A9BB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACC716D214AE0CC00A9BB24 /* eatMap.xcdatamodeld in Sources */,
+				3ACC7167214AE0CC00A9BB24 /* ViewController.swift in Sources */,
+				3ACC7165214AE0CC00A9BB24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC7174214AE0CF00A9BB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACC717D214AE0CF00A9BB24 /* eatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACC717F214AE0CF00A9BB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACC7188214AE0CF00A9BB24 /* eatMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ACC717A214AE0CF00A9BB24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACC7160214AE0CC00A9BB24 /* eatMap */;
+			targetProxy = 3ACC7179214AE0CF00A9BB24 /* PBXContainerItemProxy */;
+		};
+		3ACC7185214AE0CF00A9BB24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACC7160214AE0CC00A9BB24 /* eatMap */;
+			targetProxy = 3ACC7184214AE0CF00A9BB24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ACC7168214AE0CC00A9BB24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACC7169214AE0CC00A9BB24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ACC7170214AE0CE00A9BB24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACC7171214AE0CE00A9BB24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ACC718A214AE0CF00A9BB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ACC718B214AE0CF00A9BB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ACC718D214AE0CF00A9BB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ACC718E214AE0CF00A9BB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ACC7190214AE0CF00A9BB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eatMap.app/eatMap";
+			};
+			name = Debug;
+		};
+		3ACC7191214AE0CF00A9BB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eatMap.app/eatMap";
+			};
+			name = Release;
+		};
+		3ACC7193214AE0CF00A9BB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eatMap;
+			};
+			name = Debug;
+		};
+		3ACC7194214AE0CF00A9BB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kammeron.eatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eatMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACC715C214AE0CC00A9BB24 /* Build configuration list for PBXProject "eatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACC718A214AE0CF00A9BB24 /* Debug */,
+				3ACC718B214AE0CF00A9BB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACC718C214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACC718D214AE0CF00A9BB24 /* Debug */,
+				3ACC718E214AE0CF00A9BB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACC718F214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACC7190214AE0CF00A9BB24 /* Debug */,
+				3ACC7191214AE0CF00A9BB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACC7192214AE0CF00A9BB24 /* Build configuration list for PBXNativeTarget "eatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACC7193214AE0CF00A9BB24 /* Debug */,
+				3ACC7194214AE0CF00A9BB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3ACC716B214AE0CC00A9BB24 /* eatMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3ACC716C214AE0CC00A9BB24 /* eatMap.xcdatamodel */,
+			);
+			currentVersion = 3ACC716C214AE0CC00A9BB24 /* eatMap.xcdatamodel */;
+			path = eatMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3ACC7159214AE0CC00A9BB24 /* Project object */;
+}
